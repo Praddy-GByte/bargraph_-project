@@ -1,0 +1,27 @@
+
+
+    #chart-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #chart-container > div {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    /* Optional: Customize the height of the charts */
+    #pH-chart,
+    #chloride-chart,
+    #sulphate-chart {
+        height: 300px;
+    }
